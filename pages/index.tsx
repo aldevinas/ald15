@@ -16,7 +16,7 @@ const index = ({endpoint}) => {
       exit="exit"
     >
       <h1 className="my-3 font-medium">
-        Hello ! You can call me Aldis. I am front end web developer. 
+        Hello! You can call me Aldis. I am front end web developer. 
         In my web projects I use 4 general work principles. Final product must be <span className="font-bold text-purple-500">
           intuitive</span> for users, <span className="font-bold text-purple-500">responsive</span> to any device, working <span className="font-bold text-purple-500">fast</span> and <span className="font-bold text-purple-500">corresponding</span> to the purpose.
       </h1>
