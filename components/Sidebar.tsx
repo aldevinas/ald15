@@ -38,7 +38,7 @@ const Sidebar = () => {
         {/* <a href="https://www.linkedin.com/in/aldevinas-mikalauskas-0113a29/">
           <AiOutlineLinkedin className="w-8 h-8 cursor-pointer hover:text-blue-600"/>
         </a> */}
-        <a href="https://github.com/aldevinas">
+        <a href="https://github.com/aldevinas" aria-label="Github">
           <AiOutlineGithub className="w-8 h-8 cursor-pointer hover:text-blue-600"/>
         </a>
         {/* <a href="https://www.facebook.com/aldevinas.mikalauskas/">

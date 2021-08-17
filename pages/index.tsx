@@ -3,6 +3,7 @@ import { services } from "../data";
 import ServiceCard from "../components/ServiceCard";
 import {motion} from 'framer-motion';
 import { fadeInUp, routeAnimation, stagger } from "../animations";
+import Head from "next/head";
 
 const index = ({endpoint}) => {
   console.log(endpoint);
@@ -15,13 +16,16 @@ const index = ({endpoint}) => {
       animate="animate"
       exit="exit"
     >
+      <Head>
+        <title>Fornt End Web Developer portfolio</title>
+      </Head>
       <h1 className="my-3 font-medium">
         Hello! You can call me Aldis. I am front end web developer. 
         In my web projects I use 4 general work principles. Final product must be <span className="font-bold text-purple-500">
           intuitive</span> for users, <span className="font-bold text-purple-500">responsive</span> to any device, working <span className="font-bold text-purple-500">fast</span> and <span className="font-bold text-purple-500">corresponding</span> to the purpose.
       </h1>
       <div className="flex-grow p-4 mt-5 bg-gray-300 dark:bg-dark-100" style={{marginLeft:'-1.5rem', marginRight: '-1.5rem'}}>
-        <h6 className="my-3 text-xl font-bold tracking-wider">I can create...</h6>
+        <h2 className="my-3 text-xl font-bold tracking-wider">I can create...</h2>
         <motion.div className="grid gap-6 lg:grid-cols-2"
           variants={stagger}
           initial="initial"

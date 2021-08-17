@@ -5,6 +5,7 @@ import { useState } from "react";
 import { Category } from "../type";
 import { motion } from "framer-motion";
 import { fadeInUp, stagger, routeAnimation } from "../animations";
+import Head from "next/head";
 
 
 const Projects = () => {
@@ -34,6 +35,9 @@ const Projects = () => {
       animate="animate"
       exit="exit"
     >
+      <Head>
+        <title>Projects</title>
+      </Head>
       <ProjectsNavbar
         handlerFIlterCategory={handlerFilterCategory}
         active={active}
