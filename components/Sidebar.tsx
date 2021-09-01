@@ -1,6 +1,8 @@
 import { AiOutlineGithub, AiOutlineFacebook, AiOutlineLinkedin, AiOutlineEnvironment, AiOutlineMail, AiOutlinePhone, AiOutlineQrcode} from "react-icons/ai";
 import {useTheme} from 'next-themes';
 import Image from "next/image";
+import ProfilePicture from '../public/images/aldis.jpg'
+
 
 const Sidebar = () => {
 
@@ -13,8 +15,8 @@ const Sidebar = () => {
   return (
     <div>
       <Image
-        src="https://media-exp1.licdn.com/dms/image/C5603AQFUI1jFV01Spw/profile-displayphoto-shrink_200_200/0/1517654405108?e=1629936000&v=beta&t=Mzpr0D54kCBa0B6ntW1peAKx4-qLYmcKDXO_t9Rgzhc"
-        alt="personal photo"
+        src={ProfilePicture}
+        alt="author photo"
         className="mx-auto rounded-full"
         width="128"
         height="128"
