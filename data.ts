@@ -104,12 +104,12 @@ export const tools: ISkill[] = [
 export const projects: IProject[] = [
   { 
     id: 1,
-    name: "SOON",
+    name: "Admin dashboard",
     description:
-      "More info about this project comming soon.",
-    image_path: "/images/project_img.jpg",
-    deployed_url: "",
-    github_url: "",
+      "This is admin pannel template demo made with React JS library",
+    image_path: "/images/dashboard.jpg",
+    deployed_url: "https://ald15-dashboard.netlify.app/",
+    github_url: "https://github.com/aldevinas/dashboard",
     category: ["reactJS"],
     key_techs: ["React", "Chart.js", "Material UI"],
   },
